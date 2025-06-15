@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>قائمة المقهى | Coffee Menu</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="language-selector">
+    <label for="lang">🌐 Language:</label>
+    <select id="lang" onchange="setLanguage(this.value)">
+      <option value="ar">العربية</option>
+      <option value="en">English</option>
+      <option value="fr">Français</option>
+      <option value="zh">中文</option>
+      <option value="ja">日本語</option>
+      <option value="ko">한국어</option>
+      <option value="tr">Türkçe</option>
+      <option value="es">Español</option>
+      <option value="ru">Русский</option>
+      <option value="de">Deutsch</option>
+    </select>
+  </div>
+
+  <h1 id="title">قائمة المقهى</h1>
+
+  <div id="menu">
+    <!-- JavaScript will load items here -->
+  </div>
+
+  <script src="translations.js"></script>
+  <script src="script.js"></script>
+</body>
+</html>
